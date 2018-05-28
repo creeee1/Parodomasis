@@ -1,0 +1,507 @@
+*,
+*:before,
+*:after{
+	Box-sizing: border-box
+}
+
+
+body{
+	margin:0 auto;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.sectionheading{
+	margin:0;
+
+}
+
+/*<--------------------------------Sekcija 1---------------------->*/
+
+
+.sekcija1{
+	min-height: 100vh;
+	background-image: url(../images/subscribeback.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.flex{
+	display: flex;
+}
+
+.navi{
+	/*background-color: grey;*/
+	
+	align-self: center;
+	width: 100%;
+}
+
+.mygtukas a{
+	text-decoration: none;
+	color:#fff;
+	margin: 0 35px;
+}
+
+.fotikas{
+	margin: 0 65px;
+}
+
+.fotikas a{
+	background-image: url(../images/fotikas.png);
+	width: 53px;
+	height: 55px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.life{
+	font-size: 50px;
+	margin: 20px 20px;
+	color: #fff;
+}
+
+.life2{
+	/*background-color: teal;*/
+	color: #fff;
+	word-spacing: 0.10em;
+	/*margin: 0;*/
+}
+
+.get{
+	background-color: #16a085;
+	display: inline-block;
+	padding: 10px 15px;
+	width: 130px;
+	border-radius: 5px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+
+.meniu li{
+	margin: 5px;
+	padding: 5px;
+	display: inline;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.meniu{
+	padding-left: 0;
+	
+	display: flex;
+
+align-items: center;
+
+justify-content: center;
+}
+
+.ikoneles{
+	list-style: none;
+	/*background-color: yellow;*/
+	padding-left: 0;
+	align-self: center;
+
+}
+
+.ikoneles li{
+	padding: 3px;
+}
+
+
+/*<-------------------Sekcija 2----------------->
+*/
+
+.sekcija2{
+	background-color: #f5f6f7;
+	justify-content: space-between;
+	background-image: url(../images/rankaiphone.png);
+	background-repeat: no-repeat;
+	background-position: right 20% bottom -350px;
+	padding: 110px 0 90px;
+}
+
+.sekcija2text{
+	width: 40%;
+}
+
+.konteineris{
+	max-width: 1020px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+
+/*<------------------------Sekcija 3----------------*//*--->*/
+
+.sekcija3{
+	background-color: #fff;;
+	padding: 150px 0 90px;
+	justify-content: space-between;
+	background-image: url(../images/iphone.png);
+	background-repeat: no-repeat;
+	background-position: 22% 150px;
+}
+
+.konteineris2{
+	max-width: 1020px;
+	margin: 0 auto;
+	flex-direction: row-reverse;
+	padding: 0 15px;
+}
+
+.sekcija3text{
+	width: 40%;
+}
+
+/*<------------------Sekcija 4------------------>*/
+
+
+
+
+.sekcija4{
+	padding: 120px 0 120px;
+	background-color: #f5f6f7;
+}
+
+.konteineris4{
+	max-width: 1020px;
+	margin: 0 auto;
+}
+
+.sekcija4text{
+	text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    margin:0 auto;
+}
+
+.community a {
+	margin:0 auto;
+}
+
+.image{
+	width: 100%;
+    height: auto;
+}
+
+.community, .nuotraukos{
+	float: left;
+	width: 50%;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*<----------------------Subscribe----------------------->*/
+
+.subscribe{
+	min-height: 100vh;
+	background-image: url(../images/subscribeback.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.containerbox{
+	max-width: 510px;
+	margin: 0 auto;
+}
+
+.containertext{
+	align-items: center;
+
+}
+
+.stoc{
+	margin: 0;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	padding-bottom: 35px;
+}
+
+.email{
+	display: flex;
+	justify-content: center;
+}
+
+.your{
+	color: #373737;
+	text-transform: uppercase;
+	align-self: center;
+	letter-spacing: 0.15em;
+	padding-left: 15px;
+}
+
+.subemail{
+	/*background-color: #fff;*/
+	width: 130px;
+	height: 50px;
+	border-radius: 5px 0px 0px 5px;
+	/*color: #fff;*/
+	text-decoration: none;
+	text-align: center;
+	min-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    word-spacing: 0.03em;
+}
+
+.subemail .fas{
+	float: right;
+	background-color: #16a085;
+	padding: 15px;
+	min-width: 15px;
+	border-radius: 0 5px 5px 0;
+	align-self: center;
+}
+
+input[type=submit]{
+	display: inline-block;
+	background-color: #16a085;
+	padding: 17px;
+	min-width: 17px;
+	border-radius: 0 5px 5px 0;
+	align-self: center;
+	border: 0px;
+}
+
+
+
+/*<-------------Sekcija 5----------->*/
+
+
+.sekcija5{
+	background-color: #fff;
+	padding:90px 0 120px;
+}
+
+.konteineris5{
+	max-width: 850px;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.sekcija5text{
+	width: 100%;
+	text-align: center;
+}
+
+.foo{
+	display: flex;
+	justify-content: center;
+}
+
+.foo .store + .store{
+	margin-left: 10px;
+}
+.download{
+	padding: 15px;
+}
+
+.store{
+	background-color: #1abc9c;
+	width: 130px;
+	border-radius: 5px;
+	color: #fff;
+	text-decoration: none;
+	text-align: left;
+	min-width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.store span{
+	align-self: center;
+	margin-left: 10px;
+}
+
+.store .fab{
+	float: right;
+	background-color: #16a085;
+	padding: 10px;
+	min-width: 10px;
+	border-radius: 0 5px 5px 0;
+}
+
+
+/*<--------------FOOTER----------->>*/
+
+
+
+footer{
+	background-color: #f5f6f7;
+}
+
+.sekcija6{
+	padding:0px 0px 40px;
+
+}
+
+
+.konteineris6{
+	max-width: 1020px;
+	margin: 0 auto;
+	justify-content: space-between;
+	padding: 0 15px;
+}
+
+.sekcija6text li{
+	list-style: none;
+	display: inline;
+	border-right: 3px solid #16a085;
+	padding-right: 10px;
+}
+
+.list{
+	padding: 0;
+	text-transform: uppercase;
+}
+.list a{
+	text-decoration: none;
+	color: black;
+}
+
+
+/*<-------------------RESPONSIVE-------------------->
+*/
+
+
+@media all and (max-width: 700px){
+	.sekcija2text{
+		width: 100%;
+		background-color: rgba(245,246,247,0.5);
+		padding:15px 5px;
+		text-align: center;
+	}
+
+	.sekcija3text{
+		width: 100%;
+		background-color: rgba(245,246,247,0.5);
+		padding:15px 5px;
+		text-align: center;
+	}
+
+	.sekcija3{
+		background-position: center 80px;
+	}
+
+	.sekcija5text{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+	.foo{
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+
+	}
+
+	.foo .store + .store{
+		margin-left: 0;
+		margin-top: 10px
+	}
+
+	.download{
+		width: 100%;
+		background-color: rgba(22,160,133,0.2);
+		padding: 15px 15px;
+	}
+
+	.konteineris6{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		background-color: rgba(22,160,133,0.3);
+	}
+
+	.nuotraukos, .community{
+		width: 100%;
+	}
+
+	.stoc{
+		text-align: center;
+		padding: 0px 15px 15px 15px;
+	}
+
+}
+
+@media all and (max-width: 760px){
+	.navi{
+		
+		
+	}
+
+	.navi li a{
+		margin: 0;
+		padding: 0;
+		align-self: center;
+
+	}
+
+	.navi li{
+		margin: 0;
+		padding: 0;
+		align-self: center;
+		display: block;
+		padding: 10px 0;
+
+	}
+
+	.meniu{
+		display: block;
+	}
+
+	.list li{
+		display: flex;
+		flex-direction: column;
+		border: none;
+		padding: 10px 0;
+	}
+}
+
+@media all and (max-width: 907px){
+	.navi{
+		background-color: rgba(20,20,20,0.3);
+		width:100%;
+
+	}
+	.meniu .fotikas{
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
