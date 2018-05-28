@@ -7,4 +7,4 @@ Contact me: binkis.arturas@gmail.com
 
 ### "Vilnius CODING School" (Course Final Project)
 [WordPress](VCS_with_WP) | [HTML code](VCS)
-![demo](screenshots/Home.png)
+![demo](screenshot/Home.png)
